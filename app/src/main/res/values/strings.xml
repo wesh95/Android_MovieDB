@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hw3</string>
+    <string-array name="sortby_array">
+        <item>Title</item>
+        <item>Votes</item>
+        <item>Popularity</item>
+    </string-array>
+
+
+</resources>
+
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:fillViewport="true"
+
+    tools:context="com.example.wesh9.hw3.Screen2">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+        <TableRow
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp">
+
+            <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+
+            android:id="@+id/screenTitle" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:id="@+id/favScreem2"
+                android:text="favorite"
+                android:onClick="onScreenBox"
+                android:layout_marginTop="50dp"
+                />
+        </TableRow>
+
+        <TableRow
+         >
+
+            <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+                android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/screenDate"
+            />
+        </TableRow>
+        <TableRow>
+            <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/overview"
+            android:layout_marginTop="50dp"
+             />
+        </TableRow>
+
+    </TableLayout>
+    <!---->
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="173dp"-->
+        <!--android:id="@+id/screenTitle" />-->
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/screenDate"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignStart="@+id/screenTitle" />-->
+
+    <!--<TextView-->
+        <!--android:text="TextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:id="@+id/overview"-->
+        <!--android:layout_marginTop="59dp"-->
+        <!--android:layout_below="@+id/screenDate"-->
+        <!--android:layout_alignStart="@+id/screenDate" />-->
+</ScrollView>
